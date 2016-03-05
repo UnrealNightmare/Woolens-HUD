@@ -54,9 +54,9 @@ Scheme
         "UberMeter"     "22 182 71 255"     //Uber meter ready color
         "Uber"          "22 182 71 255"     //Uber ready color
         
-		"Health"               "227 227 227 255"    //Normal health color
+		"Health"               "0 255 0 255"    //Normal health color
         
-        "Positive"             "18 127 220 255"     //Buffed HP    
+        "Positive"             "255 200 255 255"     //Buffed HP    
         "Negative"             "245 54 64 255"      //Low HP     
         
 		////CORE COLORS////
@@ -1485,12 +1485,79 @@ Scheme
 			"1"
 			{
 				"name"			"NovecentoNumbersBold"
-				"tall"		"8"
+				"tall"		"30"
 				"additive"	"0"
 				"antialias" 	"1"
                 "dropshadow"	"0"
 			}
 		}
+		"B36"          
+		{
+			"1"
+			{
+				"name"			"NovecentoNumbersBold"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		"B40"          
+		{
+			"1"
+			{
+				"name"			"NovecentoNumbersBold"
+				"tall"		"40"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		"B42"          
+		{
+			"1"
+			{
+				"name"			"NovecentoNumbersBold"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		"B48"          
+		{
+			"1"
+			{
+				"name"			"NovecentoNumbersBold"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		"B50"          
+		{
+			"1"
+			{
+				"name"			"NovecentoNumbersBold"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		"B56"          
+		{
+			"1"
+			{
+				"name"			"NovecentoNumbersBold"
+				"tall"		"56"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		
         "DeathNotice"
 		{
 			"1"

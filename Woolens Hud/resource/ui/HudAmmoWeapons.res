@@ -21,9 +21,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"BoldNumbers54"
-		"fgcolor"		"Ammo"
-		"xpos"	        "c45"		
+		"font"			"B56"
+		"fgcolor"		"0 255 255 255"
+		"xpos"	        "c55"		
 		"ypos"	        "335"		
 		"zpos"			"7"
 		"wide"	        "95" 
@@ -38,10 +38,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"MediumNumbers26"
-		"fgcolor"		"AmmoReserve"
-		"xpos"	        "c145"
-		"ypos"			"337"
+		"font"			"NoveLight24"
+		"fgcolor"		"0 0 255 255"
+		"xpos"	        "c155"
+		"ypos"			"332"
 		"zpos"			"5"
 		"wide"			"92"
 		"tall"			"44"
@@ -55,8 +55,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"BoldNumbers54"
-		"fgcolor"		"Ammo"
+		"font"			"B56"
+		"fgcolor"		"0 255 255 255"
 		"xpos"	        "c101"		
 		"ypos"	        "335"		
 		"zpos"			"7"
@@ -71,9 +71,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"BoldNumbers54"
+		"font"			"B56"
 		"fgcolor"		"HudShadow"
-		"xpos"	        "c46"
+		"xpos"	        "c56"
 		"ypos"	        "336"
 		"zpos"			"-2"
 		"wide"	        "95" 
@@ -87,10 +87,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"MediumNumbers26"
+		"font"			"NoveLight24"
 		"fgcolor"		"HudShadow"
-		"xpos"	        "c146"
-		"ypos"			"338"
+		"xpos"	        "c156"
+		"ypos"			"333"
 		"zpos"			"-5"
 		"wide"			"92"
 		"tall"			"44"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"BoldNumbers54"
+		"font"			"B56"
 		"fgcolor"		"HudShadow"
 		"xpos"	"c102"
 		"ypos"	"336"
@@ -114,6 +114,30 @@
 		"enabled"		"1"
 		"textAlignment"	"west"			
 		"labelText"		"%Ammo%"
+	}
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"525"
+		"ypos"			"385"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"	 		"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
     
     //removed

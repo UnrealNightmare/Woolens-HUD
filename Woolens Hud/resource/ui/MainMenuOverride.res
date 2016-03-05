@@ -2241,7 +2241,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"solFontBold18"
+			"font"			"solFontBold12"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
