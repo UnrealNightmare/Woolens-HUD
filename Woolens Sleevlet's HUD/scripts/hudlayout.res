@@ -13,7 +13,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		
-		"labelText"		"X"
+		"labelText"		"x"
 		
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KnucklesCrosses"
